@@ -1,0 +1,19 @@
+.regformcontainer{
+    padding-top: 250px;
+    width: 30%;
+    margin-left: 500px;
+}
+.regform{
+    display: grid;
+}
+.regform input{
+    font-size: 40px;
+    width: 700px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+.regform button{
+    width: 250px;
+    font-size: 50px;
+    margin-left: 200px;
+}

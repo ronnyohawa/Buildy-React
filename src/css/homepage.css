@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(89, 89, 190);
+  width: 100%;
+  box-sizing: border-box;
+}
+.home{
+  color: whitesmokes;
+  padding-top: 300px;
+  padding-left: 120px;
+}
+.homecontent{
+  display: flex;
+}
+.hometxt{
+  padding-top: 150px;
+  font-size: 30px;
+  justify-content: space-around;
+}
+.readmore{
+  font-size: 25px;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.readmore button{
+  width: 150px;
+  height: 30px;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: 20px;
+}
+.homeimg video{
+  padding-left: 350px;
+  height: 500px;
+  width: 700px;
+}
+.select{
+  padding-top: 120px;
+  padding-left: 400px;
+  padding-bottom: 100px;
+}
+.select select{
+  margin-left: 30px;
+  font-size: 50px;
+  border-radius: 20px;
+}
+.select button{
+  font-size: 50px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.service{
+  display: flex;
+  background-color: rgb(196, 233, 220);
+}
+.specificservice{
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 75px;
+
+}
+.specificservice img{
+  height: 100px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+.paidpost{
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  width: 100%;
+  padding-bottom: 70px;
+  
+}
+.paidheader{
+  padding-left: 650px;
+  padding-top: 40px;
+  width: 40%;
+}
+.paidheader h1{
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+.paidheader p{
+  padding-left: 50px;
+}
+.paidpostcontent{
+  display: flex;
+  width: 80%;
+  padding-left: 300px;
+  margin-bottom: 50px;
+}
+.contentright{
+  padding-left: 50px;
+  display: block;
+}
+.propretyimg img{
+  height: 400px;
+}
+.location{
+  display: flex;
+  font-size: 20px;
+}
+.location p{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.proptxt{
+  font-size: 20px;
+}
+.agentdetails{
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.agentdetails img{
+  border-radius: 50px;
+  height: 100px;
+}
+.agentdata{
+  margin-left: 10px;
+}
+.agentdata h2{
+  color: blueviolet;
+}
+.contentright button{
+  font-size: 25px;
+  font-weight: 600;
+  background-color: blueviolet;
+  color: whitesmoke;
+  border-style: none;
+  width: 200px;
+  height: 50px;
+}
+.scrolling{
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scrollbtn{
+  position: absolute;
+  display: grid;
+  padding-top: 125px;
+  margin-left: 225px;
+}
+.scrollbtn button{
+  font-size: 20px;
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+.rewards{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconic{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.iconicdata{
+  display: flex;
+  padding-left: 70px;
+}
+.iconicdata img{
+  height: 100px;
+}
+.iconictxt{
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.recent{
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.recentheader{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding-left: 500px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.recentheader h1{
+  padding-left: 250px;
+}
+.propertyimg img{
+  height: 300px;
+}
+.propertys{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-left: 400px;
+  height: 640px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.propertyimg{
+  display: grid;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.propdata{
+  position: relative;
+  margin-top: -50px;
+}
+.propdata:hover{
+  margin-top: -150px;
+  margin-left: 100px;
+  font-size: 20px;
+  color: blueviolet;
+  cursor: grab;
+}
+.scrollbtnrecent{
+  position: absolute;
+  margin-top: -500px;
+  margin-left: 350px;
+  display: grid;
+}
+.scrollbtnrecent button{
+  font-size: 20px;
+  background-color: blueviolet;
+  color: white;
+}
+.contacts{
+  background-color: blueviolet;
+  padding-bottom: 20px;
+}
+.subscribe{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe input{
+  width: 500px;
+  font-size: 30px;
+  height: 50px;
+  border-style: none;
+}
+.subscribe button{
+  font-size: 30px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: white;
+  color: blueviolet;
+  width: 200px;
+  border-style: none;
+}
+.aboutmore{
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.moreinfor{
+  font-size: 20px;
+}
+.moreinfor h3{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.aboutus{
+  padding-left: 500px;
+
+}
+.aboutus h3{
+  font-size: 20px;
+  margin-top: 40px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 94, 235);
+  color: white;
+}
+.footer h3{
+  margin-left: 10px;
+  padding-top: 20px;
+}
+.footer img{
+  padding-top: 20px;
+}
